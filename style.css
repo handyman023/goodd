@@ -8,6 +8,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    padding-top: 60px; /* Push content below the fixed navbar */
     padding-bottom: 80px; /* Space for footer */
 }
 
@@ -52,14 +53,13 @@ nav {
 
 /* Marquee and Content Styling */
 .marquee-container {
-    padding-top: 60px;
-    margin-bottom: 20px;
+    padding-top: 10px; /* Adjusted padding to fit below navbar */
+    margin-bottom: 10px; /* Reduce space between marquee and content */
 }
 
 .content-center, .content-left {
     text-align: center;
     margin: 20px;
-    padding-top: 60px;
 }
 
 .content-left {
@@ -89,9 +89,9 @@ nav {
 
 /* Reduced Home Page Image Size */
 .imgMain {
-    width: 90%; /* Adjusted from 100% to 90% for smaller display */
+    width: 90%;
     height: auto;
-    max-width: 800px; /* Reduced from 1000px to 800px */
+    max-width: 800px;
     border-radius: 5%;
     border: 2px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -127,18 +127,18 @@ footer {
 
 /* Conclusion Section Styling */
 #conclusion {
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    background-color: rgba(0, 0, 0, 0.7);
     color: #f0f0f0;
     padding: 40px 20px;
     text-align: center;
     border-radius: 10px;
-    margin: 40px auto; /* Center with top and bottom margin */
-    max-width: 800px; /* Limit width for readability */
+    margin: 40px auto;
+    max-width: 800px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 #conclusion h1 {
-    color: #fd0f0f; /* Standout color for the heading */
+    color: #fd0f0f;
     font-size: 2em;
     margin-bottom: 20px;
 }
