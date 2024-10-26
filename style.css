@@ -15,10 +15,10 @@ body {
 header {
     background-color: #151616;
     padding: 10px 0;
-    position: fixed; /* Fixed position */
-    width: 100%; /* Full width */
-    top: 0; /* Stay at the top */
-    z-index: 1000; /* Ensure it's on top of other content */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 nav {
@@ -50,18 +50,16 @@ nav {
     background-color: rgb(0, 9, 128);
 }
 
-/* Marquee Styling - Positioned Below Navbar */
+/* Marquee and Content Styling */
 .marquee-container {
-    padding-top: 70px; /* Ensure it stays below the fixed header */
-    margin-bottom: 10px; /* Reduce space below the marquee */
-    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 20px;
 }
 
-/* Content Styling */
 .content-center, .content-left {
     text-align: center;
-    margin: 10px; /* Reduced margin to bring marquee and image closer */
-    padding-top: 40px; /* Adjust padding for better positioning under navbar */
+    margin: 20px;
+    padding-top: 60px;
 }
 
 .content-left {
@@ -69,36 +67,34 @@ nav {
     width: 40%;
 }
 
-/* Reduced Home Page Image Size */
-.imgMain {
-    width: 90%; /* Reduced size of the image */
-    height: auto;
-    max-width: 800px; /* Further limit maximum width */
-    border-radius: 5%;
-    border: 2px solid #ccc; /* Border for main image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
-    margin-top: -10px; /* Further reduce gap between marquee and image */
-}
-
-/* Styling for Other Page Images */
+/* Image Styling */
 .left-image, .ideal-role-image, .learning-tools, .communication-channels, .benefits {
     width: 100%;
     height: auto;
-    max-width: 300px; /* Limit maximum width for better responsiveness */
-    border: 2px solid #ccc; /* Light border for images */
-    border-radius: 5%; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    margin: 10px 0; /* Vertical margin */
+    max-width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
 }
 
-/* Ensure consistent height for images in the same line */
 .benefits-images img {
-    height: 250px; /* Set a fixed height for alignment */
-    width: auto; /* Maintain aspect ratio */
-    border: 2px solid #ccc; /* Border for benefits images */
-    border-radius: 5%; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
-    margin: 10px; /* Margin around benefits images */
+    height: 250px;
+    width: auto;
+    border: 2px solid #ccc;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+/* Reduced Home Page Image Size */
+.imgMain {
+    width: 90%; /* Adjusted from 100% to 90% for smaller display */
+    height: auto;
+    max-width: 800px; /* Reduced from 1000px to 800px */
+    border-radius: 5%;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Links and Button Styling */
@@ -123,8 +119,31 @@ footer {
     color: white;
     padding: 10px 0;
     text-align: center;
-    position: fixed; /* Fixed position */
-    width: 100%; /* Full width */
-    bottom: 0; /* Stay at the bottom */
-    left: 0; /* Align to left */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+/* Conclusion Section Styling */
+#conclusion {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    color: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 40px auto; /* Center with top and bottom margin */
+    max-width: 800px; /* Limit width for readability */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#conclusion h1 {
+    color: #fd0f0f; /* Standout color for the heading */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#conclusion p {
+    font-size: 1.2em;
+    line-height: 1.6;
 }
