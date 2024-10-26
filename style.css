@@ -1,0 +1,120 @@
+body {
+    background-image: url(images/background2.jpg); /* Adjust the path to the images folder */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 80px; /* Space for footer */
+}
+
+header {
+    background-color: #151616;
+    padding: 10px 0;
+    position: fixed; /* Fixed position */
+    width: 100%; /* Full width */
+    top: 0; /* Stay at the top */
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+
+nav {
+    text-align: center;
+}
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar li {
+    display: inline;
+}
+
+#nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    transition: background-color 0.3s;
+}
+
+#nav-bar a:hover {
+    background-color: #fd0f0f;
+}
+
+#nav-bar .active {
+    background-color: rgb(0, 9, 128);
+}
+
+.marquee-container {
+    padding-top: 60px; /* Space to keep it below the fixed header */
+    margin-bottom: 20px; /* Additional margin below the marquee */
+}
+
+.content-center, .content-left {
+    text-align: center;
+    margin: 20px;
+    padding-top: 60px; /* Add padding to avoid overlap with fixed header */
+}
+
+.content-left {
+    float: left;
+    width: 40%;
+}
+
+.left-image, .ideal-role-image, .learning-tools, .communication-channels, .benefits {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Limit maximum width for better responsiveness */
+    border: 2px solid #ccc; /* Light border for images */
+    border-radius: 5%; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin: 10px 0; /* Vertical margin */
+}
+
+/* Ensure consistent height for images in the same line */
+.benefits-images img {
+    height: 250px; /* Set a fixed height for alignment */
+    width: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Border for benefits images */
+    border-radius: 5%; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+    margin: 10px; /* Margin around benefits images */
+}
+
+.imgMain {
+    width: 100%;
+    height: auto;
+    max-width: 1000px; /* Limit maximum width */
+    border-radius: 5%;
+    border: 2px solid #ccc; /* Border for main image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+}
+
+.podcast-link, .content-link, .reference-link {
+    display: inline-block;
+    background-color: #fd0f0f;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.podcast-link:hover, .content-link:hover, .reference-link:hover {
+    background-color: #d80000;
+}
+
+footer {
+    background-color: #151616;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; /* Fixed position */
+    width: 100%; /* Full width */
+    bottom: 0; /* Stay at the bottom */
+    left: 0; /* Align to left */
+}
