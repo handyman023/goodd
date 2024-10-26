@@ -8,7 +8,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    padding-top: 60px; /* Push content below the fixed navbar */
+    padding-top: 50px; /* Reduced padding to minimize space below navbar */
     padding-bottom: 80px; /* Space for footer */
 }
 
@@ -53,8 +53,8 @@ nav {
 
 /* Marquee and Content Styling */
 .marquee-container {
-    padding-top: 10px; /* Adjusted padding to fit below navbar */
-    margin-bottom: 10px; /* Reduce space between marquee and content */
+    padding-top: 5px; /* Further reduced padding to bring content closer to the navbar */
+    margin-bottom: 10px; /* Minimized space below the marquee */
 }
 
 .content-center, .content-left {
